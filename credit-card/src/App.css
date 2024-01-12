@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #112531;
+}
+
+.credit-card__wrapper{
+  position: absolute;
+  width: 30vw;
+  height: calc(30vw * (184/315));
+  border-radius: calc(30vw * (30/315));
+  background: linear-gradient(177deg, #9C2CF3 -13.49%, #3A49F9 109.75%);
+  will-change: transform, opacity;
+  padding: calc(30vw * (184/315) * (25/184)) calc(30vw * (30/315));
+}
